@@ -1,0 +1,504 @@
+/* Common css file start */
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    color: #566366;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section_info h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+}
+.section_info p{
+    color: #919191;
+    font-size: 18px;
+}
+/* Commpn css file end */
+/* navigation section css start  */
+nav{
+    background: #252e30;
+}
+ nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 18px;
+}
+nav .logo{
+    width: 20%;
+}
+nav .logo img{
+    display: block;
+}
+
+nav .manu{
+    width: 80%;
+}
+nav .manu ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav .manu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px;
+}
+nav .manu ul li:hover a{
+    color: #2ecc71;
+}
+/* navigation section css end */
+/* benner section css start */
+#benner{
+    background-image: url(../img/AdobeStock_301779119-scaled.jpeg);
+    background-size: cover;
+    /* background-position: center; */
+    height: 1000px;
+}
+#benner .container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#benner .benner_content{
+    display: flex;
+    flex-wrap: wrap;
+    display:inline-block; 
+    text-align: center;
+    margin: auto;
+    margin-top: 500px;
+    align-items: center;
+
+}
+#benner h1{
+    font-size: 60px;
+    font-size: 700;
+    color: #252e30;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    text-transform:uppercase;
+}
+#benner a{
+    color:#252e30;
+    font-size: 18px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    padding:15px 18px;
+}
+#benner .row{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+#benner .row:hover a{
+    color: #2ecc71;
+}
+/* benner section css file end */
+
+#self_info .section_info{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap:wrap;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+
+}
+#self_info .section_info p{
+    padding-top: 48px;
+}
+/* self_info section css file end */
+
+/* about section css start */
+
+#about .container{
+    background: #f2f2f1;
+    width: 100%;
+}
+#about .about_img{
+    width: 30%;
+}
+#about .about_img img{
+    display: block;
+    width: 100%;
+    height: 755px;
+}
+#about .section_info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-left: 100px;
+    margin: 100px 0;
+}
+#about .about_item{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .about_item h3{
+    padding-top: 75px;
+}
+#about .about_item p{
+    padding-top: 29px;
+}
+#about .about_icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .about_item i{
+    padding-top: 75px;
+    color: #2ecc71;
+    font-size: 30px;
+    width: 48px;
+}
+/* about section css file end */
+
+#my_skill .container{
+    background: #fff;
+    margin: 100px;
+}
+#my_skill .section_info{
+    width: 50%;
+}
+#my_skill .section_info p{
+    padding-top: 50px;
+    width: 550px;
+}
+#my_skill .section_info a{
+    color: #2ecc71;
+    padding: 15px 36px;
+    border: 3px solid #2ecc71;
+    display: inline-block;
+}
+#my_skill .contact{
+    margin-top:50px ;
+}
+.my_skill_content{
+    width: 50%;
+}
+.my_skill_content .lg{
+    text-align: end;
+    width: 100%;
+    height: 32px;
+    background: #f2f2f1;
+}
+.my_skill_content .sm{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 18px;
+    width: 90%;
+    height: 32px;
+    background:#2ecc71;
+}
+#illustrator {
+    margin-top: 20px;
+    width: 100%;
+}
+#illustrator .my_skill_content .lg{
+    text-align: end;
+    width: 100%;
+    height: 32px;
+    background: #f2f2f1;
+}
+#illustrator .my_skill_content .sm{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 18px;
+    width: 80%;
+    height: 32px;
+    background:#2ecc71;
+}
+#HTML_CSS{
+    margin-top: 20px;
+}
+#HTML_CSS .my_skill_content .lg{
+    text-align: end;
+    width: 100%;
+    height: 32px;
+    background: #f2f2f1;
+}
+#HTML_CSS .my_skill_content .sm{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 18px;
+    width: 90%;
+    height: 32px;
+    background:#2ecc71;
+}
+#PHP_MYSQL{
+    margin-top: 20px;
+}
+#PHP_MYSQL .my_skill_content .lg{
+    text-align: end;
+    width: 100%;
+    height: 32px;
+    background: #f2f2f1;
+}
+#PHP_MYSQL .my_skill_content .sm{
+    margin:20px 0;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 18px;
+    width: 70%;
+    height: 32px;
+    background:#2ecc71;
+}
+/* my skill section css end */
+/* resume section css start */
+#resume{
+    background: #f2f2f1;
+}
+#resume .container{
+    position: relative;
+}
+#resume .section_info{
+    margin: 100px;
+    text-align: center;
+}
+#resume .section_info h2{
+    padding-bottom: 50px;
+}
+#resume .section_info p{
+    width: 1020px;
+}
+#resume .section_info a{
+    margin: 45px auto;
+    color: #2ecc71;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: 2px solid #2ecc71;
+    display: inline-block;
+}
+#resume .container::after{
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 60px;
+    background:#f2f2f1;
+    bottom: -16px;
+    left: 50%;
+    transform: rotate(45deg);
+}
+/* resume section css end */
+/* section education css start */
+/* #education .container{
+    width: 100%;
+} */
+#education .container{
+    margin: 100px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #ccc;
+}
+#education .section_info{
+    width: 50%;
+}
+#education .section_info p{
+    width: 550px;
+    margin-top: 50px;
+}
+#education .education_content{
+    width: 50%;
+}
+#education .education_item{
+    width:550px;
+    color: #919191;
+    font-size: 18px;
+    margin-top: 100px;
+}
+#education .education_item .gpa{
+    color: #fff;
+    font-size: 14px;
+    width: 77px;
+    background: #2ecc71;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.education_item hr{
+    color: #ccc;
+} 
+
+#education .education_item2{
+    width:550px;
+    color: #919191;
+    font-size: 18px;
+    margin-top: 80px;
+}
+#education .education_item2 .gpa{
+    color: #fff;
+    font-size: 14px;
+    width: 77px;
+    background: #2ecc71;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.education_item2 hr{
+    color: #ccc;
+} 
+/* education section css file end */
+/* work experience section css start */
+
+#work .container{
+    margin: 100px;
+}
+#work .section_info{
+    width: 50%;
+}
+#work .section_info p{
+    width: 550px;
+    margin-top: 50px;
+}
+#work .work_content{
+    width: 50%;
+}
+#work .work_item{
+    width:550px;
+    color: #919191;
+    font-size: 18px;
+}
+#work .work_item .gpa{
+    color: #fff;
+    font-size: 14px;
+    width: 77px;
+    background: #2ecc71;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.work_item hr{
+    color: #ccc;
+} 
+
+#work .work_item2{
+    width:550px;
+    color: #919191;
+    font-size: 18px;
+    margin-top: 80px;
+}
+#work .work_item2 .gpa{
+    color: #fff;
+    font-size: 14px;
+    width: 77px;
+    background: #2ecc71;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.work_item2 hr{
+    color: #ccc;
+} 
+/* work experience section css end */
+/* sub pregrap section css file start */
+#pra .section_info{
+    background-color: #f2f2f1;
+    text-align: center;
+    padding: 100px;
+}
+#pra .section_info p{
+    font-style: italic;
+}
+#pra .section_info h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #566366;
+    padding-top: 50px;
+}
+/* sub pregrap section css end */
+/* porfolio section css start */
+#Portfolio .section_info{
+    text-align: center;
+    margin: 100px;
+}
+#Portfolio .section_info p{
+    padding-top: 50px;
+}
+/* portfolio section css end */
+.pic .pic_item{
+    padding: 15px;
+}
+.pic .pic_item img{
+    display:block;
+
+}
+/* end */
+
+#contact{
+    background: #252d2f;
+    padding: 100px;
+
+}
+#contact .section_info{
+    width: 50%;
+}
+
+#contact .section_info h2{
+    color: #fff;
+    margin-bottom: 50px;
+}
+#contact .section_info h5{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+#contact .contact_form{
+    width: 50%;
+}
+#contact .contact_form p{
+    font-size: 18px;
+    color: #fff;
+}
+#contact .contact_form input{
+    width: 540px;
+    height: 55px;
+    background: #4b5456;
+    border: none;
+}
+#contact .contact_form textarea{
+    width: 540px;
+    height: 280px;
+    background: #4b5456;
+    border: none;
+}
